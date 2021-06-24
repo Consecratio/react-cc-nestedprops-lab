@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Student from './Student'
 
 const students = [
@@ -75,7 +75,7 @@ const App = () => {
     <div>
       { renderStudents }
     </div>
-  )
+    )
 }
 
 
